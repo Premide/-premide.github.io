@@ -1,7 +1,7 @@
 :root{
   --clr-accent-400: hsl(12, 88%, 59%) ;
   --clr-accent-500: hsl(12, 88%, 40%) ;
-  --clr-accent-100: hsl(12, 88%, 75%) ;
+  --clr-accent-100: hsl(11, 58%, 91%) ;
   --clr-accent-300: hsl(13, 100%, 96%) ;
 
   --clr-primary-400: hsl(228, 39%, 23%) ;
@@ -235,7 +235,7 @@ p[data-width="wide"]{
   .primary-navigation{
     display: none;
 
-    position: fixed;
+    position: absolute;
     padding: var(--size-700);
     inset: 7rem var(--size-400) auto;
     max-width: 25rem;
@@ -487,7 +487,7 @@ input:where([type="text"], [type="email"]) {
   grid-column: 1/2;
 }
 
-@media(max-width:30em){
+@media(max-width:20em){
   .numbered-items div::after{
     --bg: var(--clr-accent-100);
     content:"";
@@ -513,7 +513,7 @@ input:where([type="text"], [type="email"]) {
   display: flex;
   list-style: none;
   gap:var(--size-600);
-  overflow-x: auto;
+  overflow: auto;
 }
 /* .ally-slider-container{
   margin-block:var(--size-700);
