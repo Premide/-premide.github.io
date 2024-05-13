@@ -464,7 +464,9 @@ input:where([type="text"], [type="email"]) {
   .numbered-items-body{
     grid-column: 2/-1;
 
-    color: rgb(87, 87, 153);
+    color: hsl(227, 12%, 61%);
+    font-size: 14px;
+    font-family: var(--ff-body);
   
   }
 }
@@ -506,7 +508,7 @@ input:where([type="text"], [type="email"]) {
 
 .carousel{
   border-bottom: 0.5px solid #5c5757;
-  margin: 40px;
+  margin: 10px;
 }
 
 .slider {
