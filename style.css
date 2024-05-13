@@ -103,7 +103,6 @@ html:focus-within {
 html,body{
   min-height:100%;
   overflow-x: hidden;
-  overflow-block:scroll ;
 
 }
 /* Set core body defaults */
